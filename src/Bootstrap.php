@@ -1,6 +1,6 @@
 <?php
 
-namespace gerisz\scheduling;
+namespace omnilight\scheduling;
 
 use yii\base\BootstrapInterface;
 use yii\base\Application;
@@ -21,7 +21,7 @@ class Bootstrap implements BootstrapInterface
     {
         if ($app instanceof \yii\console\Application) {
             if (!isset($app->controllerMap['schedule'])) {
-                $app->controllerMap['schedule'] = 'gerisz\scheduling\ScheduleController';
+                $app->controllerMap['schedule'] = 'omnilight\scheduling\ScheduleController';
             }
         }
     }

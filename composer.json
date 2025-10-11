@@ -1,5 +1,5 @@
 {
-  "name": "gerisz/yii2-scheduling",
+  "name": "omnilight/yii2-scheduling",
   "description": "Scheduling extension for Yii2 framework",
   "keywords": [
     "yii",
@@ -29,11 +29,11 @@
   },
   "autoload": {
     "psr-4": {
-      "gerisz\\scheduling\\": "src"
+      "omnilight\\scheduling\\": "src"
     }
   },
   "extra": {
-    "bootstrap": "gerisz\\scheduling\\Bootstrap"
+    "bootstrap": "omnilight\\scheduling\\Bootstrap"
   },
   "scripts": {
     "test": "vendor/bin/phpunit"

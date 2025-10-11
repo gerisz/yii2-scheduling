@@ -1,6 +1,6 @@
 <?php
 
-namespace gerisz\scheduling;
+namespace omnilight\scheduling;
 
 use Override;
 use Yii;

@@ -1,8 +1,8 @@
 <?php
 
-namespace gerisz\scheduling\Tests;
+namespace omnilight\scheduling\Tests;
 
-use gerisz\scheduling\Event;
+use omnilight\scheduling\Event;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\MockObject\Exception;
 use PHPUnit\Framework\TestCase;
