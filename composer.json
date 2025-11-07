@@ -6,7 +6,7 @@
     "scheduling",
     "cron"
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Pavel Agalecky",
